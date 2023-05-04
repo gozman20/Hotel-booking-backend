@@ -4,7 +4,7 @@ const colors = require("colors");
 const cors = require("cors");
 const corsOptions = require("./config/corsOptions");
 const credentials = require("./middleware/credentials");
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 10000;
 const connectDB = require("./config/db");
 connectDB();
 //Initialise express
